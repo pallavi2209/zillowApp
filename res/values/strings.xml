@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">zillowApp</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">429155293899778</string>
+    <string name="strHeading">Search Your Property Here</string>
+    <string name="strLblStreet">Address*:</string>
+    <string name="strTxtStreet">Street Address</string>
+    <string name="strLblCity">City*:</string>
+    <string name="strTxtCity">City</string>
+    <string name="strLblState">State*:</string>
+    <string name="state_prompt">Choose state</string>
+
+    <string-array name="state_arrays">
+        <item>Choose State</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string name="strSubmit">Search</string>
+    <string name="zillowDesc">Zillow</string>
+    <string name="strHeader">See more details on Zillow:</string>
+    <!-- <string name="strzillowFooter1"> &#169; Zillow, Inc., 2006&#8211;2014Use is subject to <a href="http://www.zillow.com/corp/Terms.htm">Terms of Use</a><a href="http://www.zillow.com/zestimate/">What\'s a Zestimate?</a></string> -->
+
+    <string name="strzillowFooter1"> &#169; Zillow, Inc., 2006&#8211;2014</string>
+    <string name="strzillowFooter2">Use is subject to <a href="http://www.zillow.com/corp/Terms.htm">Terms of Use</a></string>
+    <string name="strzillowFooter3"><a href="http://www.zillow.com/zestimate/">What\'s a Zestimate?</a></string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_show_table">ShowTableActivity</string>
+    <string name="title_activity_show_charts">ShowChartsActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="fbShare">f Share</string>
+    <string name="title_activity_main_fragment">MainFragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

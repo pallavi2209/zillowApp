@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="60sp" >
+
+        <TableLayout
+            android:id="@+id/zillowTable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvHeader"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnFB"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/fbshare"/>
+                
+            </TableRow>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvHomeDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvPropertyType"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Property Type" />
+
+                <TextView
+                    android:id="@+id/tvPropertyTypeVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvyearBuilt"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Year Built" />
+
+                <TextView
+                    android:id="@+id/tvyearBuiltVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvlotSizeSqFt"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lot Size" />
+
+                <TextView
+                    android:id="@+id/tvlotSizeSqFtVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvfinishedSqFt"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Finished Area" />
+
+                <TextView
+                    android:id="@+id/tvfinishedSqFtVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line6"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvbathrooms"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bathrooms" />
+
+                <TextView
+                    android:id="@+id/tvbathroomVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line7"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvbedrooms"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bedrooms" />
+
+                <TextView
+                    android:id="@+id/tvbedroomsVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line8"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvtaxAssessmentYear"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tax Assessment Year" />
+
+                <TextView
+                    android:id="@+id/tvtaxAssessmentYearVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line9"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvtaxAssessment"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tax Assessment" />
+
+                <TextView
+                    android:id="@+id/tvtaxAssessmentVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line10"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvlastSoldPrice"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Last Sold Price" />
+
+                <TextView
+                    android:id="@+id/tvlastSoldPriceVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line11"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvlastSoldDate"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Last Sold Date" />
+
+                <TextView
+                    android:id="@+id/tvlastSoldDateVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line12"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvestimateLastUpdate"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvestimateAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line13"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvestimateValueChange"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="30 Days Overall Change" />
+
+                <ImageView
+                    android:id="@+id/imageViewEstChange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingTop="5dip"
+					android:background="#00000000"/>
+
+                <TextView
+                    android:id="@+id/tvestimateValueChangeVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line14"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvestimateValuationRange"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="All Time Property Range" />
+
+                <TextView
+                    android:id="@+id/tvestimateValuationRangeVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line15"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvrestimateLastUpdate"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvrestimateAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line16"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E0F8"
+                android:gravity="center_vertical"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvrestimateValueChange"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="30 Days Rent Change" />
+
+                <ImageView
+                    android:id="@+id/imageViewREstChange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingTop="5dip"
+                    android:background="@android:color/transparent"
+                     />
+
+                <TextView
+                    android:id="@+id/tvrestimateValueChangeVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line17"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/tvrestimateValuationRange"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="All Time Rent Range" />
+
+                <TextView
+                    android:id="@+id/tvrestimateValuationRangeVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+            </TableRow>
+
+            <View
+                android:id="@+id/line18"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="2dip" />
+        </TableLayout>
+    </ScrollView>
+
+    <!--
+<RelativeLayout
+    android:id="@+id/footer"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#ffffff" 
+    android:layout_alignParentBottom="true">
+<TextView
+        android:id="@+id/zillowFooter1"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/strzillowFooter1"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="-60sp" >
+
+        <TextView
+            android:id="@+id/zillowFooter1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strzillowFooter1" />
+
+        <TextView
+            android:id="@+id/zillowFooter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strzillowFooter2"
+            />
+
+        <TextView
+            android:id="@+id/zillowFooter3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strzillowFooter3" />
+    </LinearLayout>
+
+</RelativeLayout>
